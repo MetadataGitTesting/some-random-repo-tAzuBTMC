@@ -47,6 +47,17 @@ pipelines:
       inputs: []
       outputs: []
     dependencies: {}
+  pipelines/W1:
+    name: W1
+    description: Really solid info
+    author: kati.conroy@gmail.com
+    mode: batch
+    language: scala
+    createdAt: '2022-05-07 11:10:13'
+    datasets:
+      inputs: []
+      outputs: []
+    dependencies: {}
   workflows/Mary_Rath_MD:
     name: Mary_Rath_MD
     description: ''
@@ -81,7 +92,24 @@ pipelines:
       outputs: []
     dependencies: {}
 datasets: {}
-jobs: {}
+jobs:
+  jobs/Liliana_KeelingFrank_N__SenseKendall_Emmerich:
+    name: Liliana_KeelingFrank_N__SenseKendall_Emmerich
+    description: Really solid info
+    fabricUID: null
+    scheduler: null
+    jobSize: null
+    scheduleCron: null
+    timeout: null
+    alerting:
+      emails: ''
+      onStart: false
+      onSuccess: false
+      onFailure: false
+    pipelines: []
+    enabled: null
+    createdAt: '2022-05-07 11:10:14'
+    author: kati.conroy@gmail.com
 libraries: []
 subgraphs: {}
 dependencies: '[]'
